@@ -1,9 +1,9 @@
-import { setIosSyncUniqueId } from "../redux/slices/userSlice";
 import moment from "moment";
 import jwt_decode from "jwt-decode";
 import { IOSSyncUniqueId } from "./constants";
 import NetInfo from "@react-native-community/netinfo";
 import { CommonActions } from "@react-navigation/native";
+import { setIosSyncUniqueId } from "../redux/slices/userSlice";
 import AsyncStorage from "@react-native-community/async-storage";
 
 export const isTokenExpired = (token) => {
