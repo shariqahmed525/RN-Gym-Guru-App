@@ -1,10 +1,10 @@
 import React from "react";
-import { useTheme } from "react-native-paper";
-import { ScrollView, View, TouchableOpacity } from "react-native";
 import {
   ScrollView as GHScrollView,
   TouchableOpacity as GHTouchableOpacity,
 } from "react-native-gesture-handler";
+import { useTheme } from "react-native-paper";
+import { ScrollView, View, TouchableOpacity } from "react-native";
 
 const Box = ({
   top,
