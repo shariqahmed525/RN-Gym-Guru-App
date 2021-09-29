@@ -4,8 +4,8 @@ import Typography from "../Typography";
 import { Icon } from "../../assets/icons";
 import { useTheme } from "react-native-paper";
 import { useNavigation } from "@react-navigation/core";
-import { PADDING_HORIZONTAL } from "../../utils/constants";
 import { StyleSheet, ImageBackground } from "react-native";
+import { PADDING_HORIZONTAL } from "../../utils/constants";
 import { widthPercentageToDP as wp } from "react-native-responsive-screen";
 
 const Header = ({

@@ -1,8 +1,4 @@
 import React from "react";
-import Box from "../../components/Box";
-import { useTheme } from "react-native-paper";
-import Typography from "../../components/Typography";
-import CustomButton from "../../components/CustomButton";
 import {
   IOS,
   hasNotch,
@@ -12,8 +8,12 @@ import {
 } from "../../utils/constants";
 import styles from "./styles";
 import { Image } from "react-native";
+import Box from "../../components/Box";
 import { useForm } from "react-hook-form";
+import { useTheme } from "react-native-paper";
 import TextInput from "../../components/CustomInput";
+import Typography from "../../components/Typography";
+import CustomButton from "../../components/CustomButton";
 
 const SignUp = ({ navigation }) => {
   const { control } = useForm();
