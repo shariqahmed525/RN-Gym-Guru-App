@@ -1,6 +1,5 @@
 import { StyleSheet } from "react-native";
 import { widthPercentageToDP as wp } from "react-native-responsive-screen";
-import { PADDING_HORIZONTAL } from "../../utils/constants";
 
 const val = wp(5) > 20 ? 20 : wp(5);
 
